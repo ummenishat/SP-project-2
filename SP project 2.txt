@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+
+        int red,green;
+        printf(" red :");
+        scanf("%d",&red);
+        printf(" green :");
+        scanf("%d",&green);
+        if ( red ){
+                printf(" Stop %d\n",red);
+        }
+        else{
+                printf("Pass the road - %d\n",green);
+        }
+        return 0;
+}
