@@ -2,20 +2,24 @@
 int main()
 {
 
-        int red,green,yellow;
+        int red,green,yellow,blue;
         printf(" red :");
         scanf("%d",&red);
         printf(" green :");
         scanf("%d",&green);
         print("yellow :");
         scanf("%d",&yellow);
+         print("blue :");
+        scanf("%d",&blue);
         if ( red ){
                 printf(" Stop %d\n",red);
         }
         else if{
                 printf("Pass the road - %d\n",green);
         }
-        else {
+        else if{
                 print("stop %d\n",yellow);
+        else {
+                print("nothing %d\n",blue);
         return 0;
 }
